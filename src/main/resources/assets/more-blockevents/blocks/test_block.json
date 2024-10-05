@@ -1,0 +1,11 @@
+{
+  "stringId": "more-blockevents:test_block",
+  "blockStates":
+  {
+    "default":
+    {
+      "modelName": "more-blockevents:model_test",
+      "blockEventsId": "more-blockevents:block_events_c4or"
+    }
+  }
+}

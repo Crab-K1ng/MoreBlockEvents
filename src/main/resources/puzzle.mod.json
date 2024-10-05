@@ -1,0 +1,28 @@
+{
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_desc}",
+  "authors": [
+    "crabking"
+  ],
+  "meta": {
+    "icon": "more-blockevents:icons/icon.png"
+  },
+  "entrypoints": {
+    "preInit": [
+      "io.github.CrabK1ng.MoreBlockEvents.MoreBlockEventsPreinit"
+    ],
+    "init": [
+      "io.github.CrabK1ng.MoreBlockEvents.MoreBlockEvents"
+    ]
+  },
+  "mixins": [
+    "more_blockevents.mixins.json"
+  ],
+  "dependencies": {
+    "cosmic-reach": ">=0.3.1",
+    "puzzle-loader": ">=1.5.9"
+  },
+  "accessManipulator": "more_blockevents.manipulator"
+}

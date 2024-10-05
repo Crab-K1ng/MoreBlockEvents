@@ -1,0 +1,43 @@
+{
+	"parent":"base:block_events_default",
+    "stringId": "more-blockevents:west_cupboard_open",
+    "triggers":
+    {
+        "onInteract":
+        [
+            {
+                "actionId": "more-blockevents:ReplaceIfAir",
+                "parameters":
+                {
+                    "xOff": -1,
+                    "yOff": 0,
+                    "zOff": 0,
+                    "blockStateId": "more-blockevents:cupboard[west_cupboard_open_door]"
+                }
+            }
+        ],
+        "onReplace":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0,
+                    "yOff": 0,
+                    "zOff": 0,
+                    "blockStateId": "more-blockevents:cupboard[west_cupboard_open]"
+                }
+            },
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters":
+                {
+                    "sound": "more-blockevents:sounds/blocks/wooden_cabinet_door.ogg",
+                    "volume": 1,
+                    "pitch": 1,
+                    "pan": 0
+                }
+            }
+        ]
+    }
+}

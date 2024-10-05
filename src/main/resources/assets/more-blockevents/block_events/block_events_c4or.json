@@ -1,0 +1,53 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "more-blockevents:block_events_c4or",
+    "triggers":
+    {
+        "onInteract":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayExplode"
+                }
+            }
+        ],
+        "onExplode":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "tickDelay": 5,
+                    "triggerId": "relayExplode"
+                }
+            }
+        ],
+        "relayExplode":
+        [
+
+            {
+                "actionId": "more-blockevents:Sphere",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "radius": 5,
+                    "blockStateId": "base:cheese[default]"
+                }
+            },
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters":
+                {
+                    "sound": "base:sounds/blocks/explosion.ogg",
+                    "volume": 1,
+                    "pitch": 1,
+                    "pan": 0
+                }
+            }
+        ]
+    }
+}

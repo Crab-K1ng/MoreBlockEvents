@@ -1,0 +1,40 @@
+{
+	"parent":"base:block_events_default",
+    "stringId": "more-blockevents:south_cupboard_closed_door",
+    "triggers":
+    {
+        "onInteract":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0,
+                    "yOff": 0,
+                    "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0,
+                    "yOff": 0,
+                    "zOff": -1,
+                    "blockStateId": "more-blockevents:cupboard[south_cupboard_closed]"
+                }
+            },
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters":
+                {
+                    "sound": "more-blockevents:sounds/blocks/wooden_cabinet_door.ogg",
+                    "volume": 1,
+                    "pitch": 1,
+                    "pan": 0
+                }
+            }
+        ]
+    }
+}

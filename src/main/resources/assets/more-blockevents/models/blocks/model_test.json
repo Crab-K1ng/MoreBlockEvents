@@ -1,0 +1,12 @@
+{
+  "parent": "cube",
+
+  "textures":
+  {
+    "all":
+    {
+      "fileName": "more-blockevents:diamond_block"
+    }
+  }
+
+}

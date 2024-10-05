@@ -1,0 +1,94 @@
+{
+    "stringId": "more-blockevents:cupboard",
+    "blockStates":
+     {
+        "north_cupboard_closed": {
+            "modelName": "more-blockevents:cupboard/north_cupboard_closed",
+            "blockEventsId": "more-blockevents:north_cupboard_open",
+            "isTransparent": true,
+            "isOpaque": false
+        },
+
+        "north_cupboard_open": {
+            "modelName": "more-blockevents:cupboard/north_cupboard_open",
+            "blockEventsId": "more-blockevents:north_cupboard_closed",
+            "catalogHidden" : true,
+            "isTransparent": true,
+            "isOpaque": false
+        },
+
+        "north_cupboard_open_door": {
+            "modelName": "more-blockevents:cupboard/north_cupboard_open_door",
+            "blockEventsId": "more-blockevents:north_cupboard_closed_door",
+            "catalogHidden" : true,
+            "isTransparent": true,
+            "isOpaque": false
+        },
+        "south_cupboard_closed": {
+            "modelName": "more-blockevents:cupboard/south_cupboard_closed",
+            "blockEventsId": "more-blockevents:south_cupboard_open",
+            "isTransparent": true,
+            "isOpaque": false
+        },
+
+        "south_cupboard_open": {
+            "modelName": "more-blockevents:cupboard/south_cupboard_open",
+            "blockEventsId": "more-blockevents:south_cupboard_closed",
+            "catalogHidden" : true,
+            "isTransparent": true,
+            "isOpaque": false
+        },
+
+        "south_cupboard_open_door": {
+            "modelName": "more-blockevents:cupboard/south_cupboard_open_door",
+            "blockEventsId": "more-blockevents:south_cupboard_closed_door",
+            "catalogHidden" : true,
+            "isTransparent": true,
+            "isOpaque": false
+        },
+         "west_cupboard_closed": {
+            "modelName": "more-blockevents:cupboard/west_cupboard_closed",
+            "blockEventsId": "more-blockevents:west_cupboard_open",
+            "isTransparent": true,
+            "isOpaque": false
+        },
+
+        "west_cupboard_open": {
+            "modelName": "more-blockevents:cupboard/west_cupboard_open",
+            "blockEventsId": "more-blockevents:west_cupboard_closed",
+            "catalogHidden" : true,
+            "isTransparent": true,
+            "isOpaque": false
+        },
+
+        "west_cupboard_open_door": {
+            "modelName": "more-blockevents:cupboard/west_cupboard_open_door",
+            "blockEventsId": "more-blockevents:west_cupboard_closed_door",
+            "catalogHidden" : true,
+            "isTransparent": true,
+            "isOpaque": false
+        },
+        "east_cupboard_closed": {
+           "modelName": "more-blockevents:cupboard/east_cupboard_closed",
+           "blockEventsId": "more-blockevents:east_cupboard_open",
+           "isTransparent": true,
+           "isOpaque": false
+       },
+
+       "east_cupboard_open": {
+           "modelName": "more-blockevents:cupboard/east_cupboard_open",
+           "blockEventsId": "more-blockevents:east_cupboard_closed",
+           "catalogHidden" : true,
+           "isTransparent": true,
+           "isOpaque": false
+       },
+
+       "east_cupboard_open_door": {
+           "modelName": "more-blockevents:cupboard/east_cupboard_open_door",
+           "blockEventsId": "more-blockevents:east_cupboard_closed_door",
+           "catalogHidden" : true,
+           "isTransparent": true,
+           "isOpaque": false
+       }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "more-blockevents:block_events_chat",
+    "triggers":
+    {
+        "onInteract":
+        [
+            {
+                "actionId": "more-blockevents:Chat",
+                "parameters": 
+                {
+                    "chatMessage": "/time"
+                }
+            }
+        ]
+    }
+}

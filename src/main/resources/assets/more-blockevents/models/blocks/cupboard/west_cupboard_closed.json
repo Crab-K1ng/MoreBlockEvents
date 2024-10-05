@@ -1,0 +1,116 @@
+{
+	"textures":
+    {
+        "side":
+        {
+            "fileName": "more-blockevents:cupboard_closed/cupboard_closed.png"
+        },
+        "door_handle":
+        {
+            "fileName": "more-blockevents:cupboard_closed/cupboard_closed_door_handle.png"
+        }
+
+    },
+    "cuboids":
+    [
+        {
+            "localBounds": [0, 0, 0, 16, 1, 16],
+            "faces":
+            {
+                "localNegX": {"uv": [ 0, 0, 16, 16], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"}
+            }
+        },
+		{
+            "localBounds": [0, 15, 0, 16, 16, 16],
+            "faces":
+            {
+                "localNegX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"}
+            }
+        },
+		{
+            "localBounds": [0, 1, 15, 16, 15, 16],
+            "faces":
+            {
+                "localNegX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"}
+            }
+        },
+		{
+            "localBounds": [0, 1, 0, 16, 15, 1],
+            "faces":
+            {
+                "localNegX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"}
+            }
+        },
+        {
+            "localBounds": [15, 1, 1, 16, 15, 15],
+            "faces":
+            {
+                "localNegX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"}
+            }
+        },
+        {
+            "localBounds": [0, 1, 1, 1, 15, 15],
+            "faces":
+            {
+                "localNegX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+
+                "localNegZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"},
+                "localPosZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "side"}
+            }
+        },
+        {
+            "localBounds": [-1, 6, 3, 1, 8, 5],
+            "faces":
+            {
+                "localNegX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "door_handle"},
+                "localPosX": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "door_handle"},
+
+                "localNegY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "door_handle"},
+                "localPosY": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "door_handle"},
+
+                "localNegZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "door_handle"},
+                "localPosZ": {"uv": [ 0, 0, 16, 16 ], "ambientocclusion": true, "cullFace": false, "texture": "door_handle"}
+            }
+        }
+
+    ]
+}
